@@ -1,0 +1,32 @@
+[
+{
+"age": 1,
+"id": "motorola defy with motoblur",
+"name" : "MOTO X",
+"snippet" : "Are You Ready for the new MOTO"
+},
+{
+"age": 22,
+"id": "Nokia defy with motoblur",
+"name" : "MOTO G",
+"snippet" : "Are You Ready for the new MOTO G"
+},
+{
+"age": 11,
+"id": "LG defy with motoblur",
+"name" : "MOTO X",
+"snippet" : "Are You Ready for the new MOTO X"
+},
+{
+"age": 12,
+"id": "MI defy with motoblur",
+"name" : "MOTO E",
+"snippet" : "Are You Ready for the new MOTO E"
+},
+{
+"age": 23,
+"id": "Micromax defy with Canvas",
+"name" : "Micromax Canvas",
+"snippet" : "Are You Ready for the new Micromax Canvas Nitro A311"
+}
+]
