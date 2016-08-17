@@ -1,4 +1,5 @@
- # -*- coding: utf-8 -*-from neo4jdjango.db import models
+ # -*- coding: utf-8 -*-
+from neo4jdjango.db import models
 
 class Person(models.NodeModel):
 	name = models.StringProperty
