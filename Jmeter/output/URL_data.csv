@@ -1,6 +1,0 @@
-API_Name,URL,Parameter 1,Parameter 2,Parameter 3 
-Theme,http://qa5.smallbizvoices.com/alps/dashboard/iquanti/projects/1/projectkeywordtheme,alias=0,keyword=0,alias=1
-Keyword,http://qa5.smallbizvoices.com/alps/dashboard/iquanti/projects/5/projectkeyword?,alias=0,,
-Analytics,http://qa5.smallbizvoices.com/alps/dashboard/iquanti/projects/1/projectkeywordtheme,alias=2,keyword=2,alias=3
-keyword,http://qa5.smallbizvoices.com/alps/dashboard/iquanti/projects/5/projectkeyword?,alias=0,keywords=86,
-Opti,http://qa5.smallbizvoices.com/alps/dashboard/iquanti/projects/1/projectkeywordtheme,,,
