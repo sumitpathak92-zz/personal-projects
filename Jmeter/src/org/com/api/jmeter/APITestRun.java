@@ -1,0 +1,140 @@
+package org.com.api.jmeter;
+
+import java.io.File;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.apache.jmeter.control.LoopController;
+import org.apache.jmeter.engine.StandardJMeterEngine;
+import org.apache.jmeter.protocol.http.sampler.HTTPSampler;
+import org.apache.jmeter.reporters.ResultCollector;
+import org.apache.jmeter.reporters.Summariser;
+import org.apache.jmeter.testelement.TestPlan;
+import org.apache.jmeter.util.JMeterUtils;
+import org.apache.jorphan.collections.HashTree;
+
+public class APITestRun {
+		
+	private String url = null;
+	private String apiName = null;
+	private String arg = null;
+	
+	//parameterized constructor
+	public APITestRun(String input_url, String input_apiName,String input_arg) {
+		url = input_url;
+		apiName = input_apiName;
+		arg = input_arg;
+	}
+	
+/*	public APITestRun() {
+		System.out.println("Hey");
+	}
+*/
+	public void Runner() {
+		File jmeterHome = new File("jmeterHome");
+		if (jmeterHome.exists()) {
+			File jmeterProperties = new File(jmeterHome.getPath() + "\\bin\\jmeter.properties");
+			if (jmeterProperties.exists()) {
+				//JMeter Engine
+				StandardJMeterEngine jmeter = new StandardJMeterEngine();
+
+				//JMeter initialisation (properties, log levels, locale, etc)
+				JMeterUtils.setJMeterHome(jmeterHome.getPath());
+				JMeterUtils.loadJMeterProperties(jmeterProperties.getPath());
+				JMeterUtils.initLogging();// you can comment this line out to see extra log messages
+				JMeterUtils.initLocale();
+				
+
+				//creating url to send in jmeter test plan
+				HTTPSampler examplecomSampler = null;
+				try {
+					examplecomSampler = createURL();
+				} catch (MalformedURLException e) {
+					e.printStackTrace();
+				}
+
+				//create jmeter test plan
+				HashTree testPlanTree =  createTestPlan(examplecomSampler);
+//				HashTree testPlanTree =  tree;
+				jmeter.configure(testPlanTree);
+
+				//saving summary of response into a csv
+				saveResponse(testPlanTree);
+
+				//Run jmeter test plan
+				jmeter.run();
+				//System.out.println("Test completed. See " + "output\\"  + "report.csv file for results");
+				//				jmeter.exit();
+				//				System.exit(0);
+
+			}
+		}
+	}
+
+	protected HTTPSampler createURL() throws MalformedURLException {
+		HTTPSampler examplecomSampler = new HTTPSampler();
+		URL urlParse = new URL(url);
+		String header = "format=json";
+		String method = "GET";
+
+		examplecomSampler.setProtocol(urlParse.getProtocol());
+		examplecomSampler.setDomain(urlParse.getHost());
+		examplecomSampler.setPort(urlParse.getPort());
+		examplecomSampler.setPath(urlParse.getPath());
+		examplecomSampler.setMethod(method);
+		examplecomSampler.setName(apiName);
+		examplecomSampler.parseArguments(header);
+		
+		if(arg != "" && !arg.isEmpty()) {
+			examplecomSampler.parseArguments(arg);
+		}
+		return examplecomSampler;
+	}
+
+	protected HashTree createTestPlan(HTTPSampler examplecomSampler) {
+		HashTree testPlanTree = new HashTree();
+		
+		// Loop Controller
+		LoopController loopController = new LoopController();
+		loopController.setLoops(1);
+		loopController.setFirst(true);
+		loopController.initialize();
+
+		// Thread Group
+		ThreadGroup threadGroup = new ThreadGroup();
+		threadGroup.setName("Sample Thread Group");
+		threadGroup.setNumThreads(1);
+		threadGroup.setRampUp(1);
+		threadGroup.setSamplerController(loopController);
+
+		// Test Plan
+		TestPlan testPlan = new TestPlan();
+
+		// Construct Test Plan from previously initialized elements
+		testPlanTree.add(testPlan);
+		HashTree threadGroupHashTree = testPlanTree.add(testPlan, threadGroup);
+		threadGroupHashTree.add(examplecomSampler);
+		
+
+		return testPlanTree;
+	}
+
+	protected void saveResponse(HashTree testPlanTree){
+		//add Summarizer output to get test progress in stdout like:
+		// summary =      2 in   1.3s =    1.5/s Avg:   631 Min:   290 Max:   973 Err:     0 (0.00%)
+		Summariser summer = null;
+		String summariserName = JMeterUtils.getPropDefault("summariser.name", "summary");
+		if (summariserName.length() > 0) {
+			summer = new Summariser(summariserName);
+		}
+
+		//Store execution results into a csv file
+		String report = "report.xml";
+		ResultCollector logger = new ResultCollector(summer);
+		ResultCollector csvlogger = new ResultCollector(summer);
+		csvlogger.setFilename(report);
+		testPlanTree.add(testPlanTree.getArray()[0], logger);
+		testPlanTree.add(testPlanTree.getArray()[0], csvlogger);
+	}
+	
+}

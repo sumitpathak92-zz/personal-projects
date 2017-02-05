@@ -2,6 +2,8 @@
 import tkMessageBox
 import Tkinter
 
+
+print "this is a test!"
 top=Tkinter.Tk()
 
 def helloBack():

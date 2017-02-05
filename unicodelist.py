@@ -6,8 +6,6 @@ res = u"汉字".encode("utf-8")
 print res
 res1 = l1.append(res)
 
-
-
 #res = list[0].decode().encode('utf-8')
 print l1[0].decode('utf-8')
 

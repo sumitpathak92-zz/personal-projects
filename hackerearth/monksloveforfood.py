@@ -1,5 +1,5 @@
 #import sys
-
+import re
 def main():
     tc=int(raw_input())
     st = list()

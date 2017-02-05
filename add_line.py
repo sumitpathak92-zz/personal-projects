@@ -6,6 +6,13 @@ filename = 'login.py'
 dirpath = '/home/sumit/personal files/personal projects'
 matches = []
 
+
+def hello_sumit():
+    print "hi sumit pathak"
+
+
+
+
 def directory_scanner(dirpath):
     os.chdir(dirpath)
     print "i am inside "

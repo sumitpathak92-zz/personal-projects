@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="666" lt="657" ts="1441281673717" s="true" lb="Edit-Test" rc="200" rm="OK" tn="Sample Thread Group 12-1" dt="text" by="569" ng="1" na="12">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Thu, 03 Sep 2015 12:01:52 GMT
+Content-Type: application/json;q=.2
+Transfer-Encoding: chunked
+Connection: close
+Vary: Accept
+Allow: GET, POST, PUT, DELETE, HEAD, OPTIONS
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Content-Type: application/x-www-form-urlencoded
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;id&quot;:172,&quot;tenant_code&quot;:&quot;allstate&quot;,&quot;name&quot;:&quot;Proj-13635&quot;,&quot;domain_url&quot;:&quot;http://www.put.com/wtaf&quot;,&quot;locale&quot;:&quot;en-us&quot;,&quot;crawling_frequency&quot;:&quot;daily&quot;,&quot;sub_domain_count&quot;:0,&quot;keyword_count&quot;:0,&quot;theme_count&quot;:0,&quot;crawled_dt&quot;:&quot;2015-09-03T09:53:14.779475Z&quot;,&quot;logo_url&quot;:&quot;./app/assets/tenant_project_logo/default.png&quot;,&quot;crawling_status&quot;:false,&quot;custom_ctr&quot;:false}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">locale=en-us&amp;domain_url=http%3A%2F%2Fwww.put.com%2Fwtaf&amp;crawling_frequency=daily&amp;name=Proj-13635&amp;id=172&amp;tenant_code=allstate&amp;mutipart/form-data</queryString>
+  <java.net.URL>http://qa5.smallbizvoices.com/alps/manage/allstate/projects/172?format=json</java.net.URL>
+</httpSample>
+<httpSample t="716" lt="716" ts="1441281673717" s="true" lb="Edit-Test" rc="200" rm="OK" tn="Sample Thread Group 11-1" dt="text" by="569" ng="1" na="11">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Thu, 03 Sep 2015 12:01:52 GMT
+Content-Type: application/json;q=.2
+Transfer-Encoding: chunked
+Connection: close
+Vary: Accept
+Allow: GET, POST, PUT, DELETE, HEAD, OPTIONS
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Content-Type: application/x-www-form-urlencoded
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;id&quot;:171,&quot;tenant_code&quot;:&quot;allstate&quot;,&quot;name&quot;:&quot;Proj-97334&quot;,&quot;domain_url&quot;:&quot;http://www.put.com/wtaf&quot;,&quot;locale&quot;:&quot;en-us&quot;,&quot;crawling_frequency&quot;:&quot;daily&quot;,&quot;sub_domain_count&quot;:0,&quot;keyword_count&quot;:0,&quot;theme_count&quot;:0,&quot;crawled_dt&quot;:&quot;2015-09-03T09:53:14.774558Z&quot;,&quot;logo_url&quot;:&quot;./app/assets/tenant_project_logo/default.png&quot;,&quot;crawling_status&quot;:false,&quot;custom_ctr&quot;:false}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">locale=en-us&amp;domain_url=http%3A%2F%2Fwww.put.com%2Fwtaf&amp;crawling_frequency=daily&amp;name=Proj-97334&amp;id=171&amp;tenant_code=allstate&amp;mutipart/form-data</queryString>
+  <java.net.URL>http://qa5.smallbizvoices.com/alps/manage/allstate/projects/171?format=json</java.net.URL>
+</httpSample>
+<httpSample t="752" lt="752" ts="1441281673717" s="true" lb="Edit-Test" rc="200" rm="OK" tn="Sample Thread Group 7-1" dt="text" by="569" ng="1" na="10">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Thu, 03 Sep 2015 12:01:52 GMT
+Content-Type: application/json;q=.2
+Transfer-Encoding: chunked
+Connection: close
+Vary: Accept
+Allow: GET, POST, PUT, DELETE, HEAD, OPTIONS
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Content-Type: application/x-www-form-urlencoded
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;id&quot;:174,&quot;tenant_code&quot;:&quot;allstate&quot;,&quot;name&quot;:&quot;Proj-55175&quot;,&quot;domain_url&quot;:&quot;http://www.put.com/wtaf&quot;,&quot;locale&quot;:&quot;en-us&quot;,&quot;crawling_frequency&quot;:&quot;daily&quot;,&quot;sub_domain_count&quot;:0,&quot;keyword_count&quot;:0,&quot;theme_count&quot;:0,&quot;crawled_dt&quot;:&quot;2015-09-03T09:53:15.564462Z&quot;,&quot;logo_url&quot;:&quot;./app/assets/tenant_project_logo/default.png&quot;,&quot;crawling_status&quot;:false,&quot;custom_ctr&quot;:false}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">locale=en-us&amp;domain_url=http%3A%2F%2Fwww.put.com%2Fwtaf&amp;crawling_frequency=daily&amp;name=Proj-55175&amp;id=174&amp;tenant_code=allstate&amp;mutipart/form-data</queryString>
+  <java.net.URL>http://qa5.smallbizvoices.com/alps/manage/allstate/projects/174?format=json</java.net.URL>
+</httpSample>
+<httpSample t="756" lt="756" ts="1441281673717" s="true" lb="Edit-Test" rc="200" rm="OK" tn="Sample Thread Group 4-1" dt="text" by="569" ng="1" na="9">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Thu, 03 Sep 2015 12:01:52 GMT
+Content-Type: application/json;q=.2
+Transfer-Encoding: chunked
+Connection: close
+Vary: Accept
+Allow: GET, POST, PUT, DELETE, HEAD, OPTIONS
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Content-Type: application/x-www-form-urlencoded
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;id&quot;:176,&quot;tenant_code&quot;:&quot;allstate&quot;,&quot;name&quot;:&quot;Proj-49759&quot;,&quot;domain_url&quot;:&quot;http://www.put.com/wtaf&quot;,&quot;locale&quot;:&quot;en-us&quot;,&quot;crawling_frequency&quot;:&quot;daily&quot;,&quot;sub_domain_count&quot;:0,&quot;keyword_count&quot;:0,&quot;theme_count&quot;:0,&quot;crawled_dt&quot;:&quot;2015-09-03T09:53:16.249568Z&quot;,&quot;logo_url&quot;:&quot;./app/assets/tenant_project_logo/default.png&quot;,&quot;crawling_status&quot;:false,&quot;custom_ctr&quot;:false}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">locale=en-us&amp;domain_url=http%3A%2F%2Fwww.put.com%2Fwtaf&amp;crawling_frequency=daily&amp;name=Proj-49759&amp;id=176&amp;tenant_code=allstate&amp;mutipart/form-data</queryString>
+  <java.net.URL>http://qa5.smallbizvoices.com/alps/manage/allstate/projects/176?format=json</java.net.URL>
+</httpSample>
+<httpSample t="756" lt="756" ts="1441281673717" s="true" lb="Edit-Test" rc="200" rm="OK" tn="Sample Thread Group 10-1" dt="text" by="569" ng="1" na="9">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Thu, 03 Sep 2015 12:01:52 GMT
+Content-Type: application/json;q=.2
+Transfer-Encoding: chunked
+Connection: close
+Vary: Accept
+Allow: GET, POST, PUT, DELETE, HEAD, OPTIONS
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Content-Type: application/x-www-form-urlencoded
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;id&quot;:167,&quot;tenant_code&quot;:&quot;allstate&quot;,&quot;name&quot;:&quot;Proj-20742&quot;,&quot;domain_url&quot;:&quot;http://www.put.com/wtaf&quot;,&quot;locale&quot;:&quot;en-us&quot;,&quot;crawling_frequency&quot;:&quot;daily&quot;,&quot;sub_domain_count&quot;:0,&quot;keyword_count&quot;:0,&quot;theme_count&quot;:0,&quot;crawled_dt&quot;:&quot;2015-09-03T09:53:13.861029Z&quot;,&quot;logo_url&quot;:&quot;./app/assets/tenant_project_logo/default.png&quot;,&quot;crawling_status&quot;:false,&quot;custom_ctr&quot;:false}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">locale=en-us&amp;domain_url=http%3A%2F%2Fwww.put.com%2Fwtaf&amp;crawling_frequency=daily&amp;name=Proj-20742&amp;id=167&amp;tenant_code=allstate&amp;mutipart/form-data</queryString>
+  <java.net.URL>http://qa5.smallbizvoices.com/alps/manage/allstate/projects/167?format=json</java.net.URL>
+</httpSample>
+<httpSample t="757" lt="757" ts="1441281673717" s="true" lb="Edit-Test" rc="200" rm="OK" tn="Sample Thread Group 8-1" dt="text" by="569" ng="1" na="9">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Thu, 03 Sep 2015 12:01:52 GMT
+Content-Type: application/json;q=.2
+Transfer-Encoding: chunked
+Connection: close
+Vary: Accept
+Allow: GET, POST, PUT, DELETE, HEAD, OPTIONS
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Content-Type: application/x-www-form-urlencoded
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;id&quot;:177,&quot;tenant_code&quot;:&quot;allstate&quot;,&quot;name&quot;:&quot;Proj-83901&quot;,&quot;domain_url&quot;:&quot;http://www.put.com/wtaf&quot;,&quot;locale&quot;:&quot;en-us&quot;,&quot;crawling_frequency&quot;:&quot;daily&quot;,&quot;sub_domain_count&quot;:0,&quot;keyword_count&quot;:0,&quot;theme_count&quot;:0,&quot;crawled_dt&quot;:&quot;2015-09-03T09:53:16.291445Z&quot;,&quot;logo_url&quot;:&quot;./app/assets/tenant_project_logo/default.png&quot;,&quot;crawling_status&quot;:false,&quot;custom_ctr&quot;:false}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">locale=en-us&amp;domain_url=http%3A%2F%2Fwww.put.com%2Fwtaf&amp;crawling_frequency=daily&amp;name=Proj-83901&amp;id=177&amp;tenant_code=allstate&amp;mutipart/form-data</queryString>
+  <java.net.URL>http://qa5.smallbizvoices.com/alps/manage/allstate/projects/177?format=json</java.net.URL>
+</httpSample>
+<httpSample t="758" lt="758" ts="1441281673717" s="true" lb="Edit-Test" rc="200" rm="OK" tn="Sample Thread Group 1-1" dt="text" by="569" ng="1" na="8">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Thu, 03 Sep 2015 12:01:52 GMT
+Content-Type: application/json;q=.2
+Transfer-Encoding: chunked
+Connection: close
+Vary: Accept
+Allow: GET, POST, PUT, DELETE, HEAD, OPTIONS
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Content-Type: application/x-www-form-urlencoded
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;id&quot;:178,&quot;tenant_code&quot;:&quot;allstate&quot;,&quot;name&quot;:&quot;Proj-22454&quot;,&quot;domain_url&quot;:&quot;http://www.put.com/wtaf&quot;,&quot;locale&quot;:&quot;en-us&quot;,&quot;crawling_frequency&quot;:&quot;daily&quot;,&quot;sub_domain_count&quot;:0,&quot;keyword_count&quot;:0,&quot;theme_count&quot;:0,&quot;crawled_dt&quot;:&quot;2015-09-03T09:53:16.299006Z&quot;,&quot;logo_url&quot;:&quot;./app/assets/tenant_project_logo/default.png&quot;,&quot;crawling_status&quot;:false,&quot;custom_ctr&quot;:false}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">locale=en-us&amp;domain_url=http%3A%2F%2Fwww.put.com%2Fwtaf&amp;crawling_frequency=daily&amp;name=Proj-22454&amp;id=178&amp;tenant_code=allstate&amp;mutipart/form-data</queryString>
+  <java.net.URL>http://qa5.smallbizvoices.com/alps/manage/allstate/projects/178?format=json</java.net.URL>
+</httpSample>
+<httpSample t="761" lt="761" ts="1441281673717" s="true" lb="Edit-Test" rc="200" rm="OK" tn="Sample Thread Group 9-1" dt="text" by="569" ng="1" na="6">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Thu, 03 Sep 2015 12:01:52 GMT
+Content-Type: application/json;q=.2
+Transfer-Encoding: chunked
+Connection: close
+Vary: Accept
+Allow: GET, POST, PUT, DELETE, HEAD, OPTIONS
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Content-Type: application/x-www-form-urlencoded
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;id&quot;:168,&quot;tenant_code&quot;:&quot;allstate&quot;,&quot;name&quot;:&quot;Proj-38755&quot;,&quot;domain_url&quot;:&quot;http://www.put.com/wtaf&quot;,&quot;locale&quot;:&quot;en-us&quot;,&quot;crawling_frequency&quot;:&quot;daily&quot;,&quot;sub_domain_count&quot;:0,&quot;keyword_count&quot;:0,&quot;theme_count&quot;:0,&quot;crawled_dt&quot;:&quot;2015-09-03T09:53:13.863093Z&quot;,&quot;logo_url&quot;:&quot;./app/assets/tenant_project_logo/default.png&quot;,&quot;crawling_status&quot;:false,&quot;custom_ctr&quot;:false}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">locale=en-us&amp;domain_url=http%3A%2F%2Fwww.put.com%2Fwtaf&amp;crawling_frequency=daily&amp;name=Proj-38755&amp;id=168&amp;tenant_code=allstate&amp;mutipart/form-data</queryString>
+  <java.net.URL>http://qa5.smallbizvoices.com/alps/manage/allstate/projects/168?format=json</java.net.URL>
+</httpSample>
+<httpSample t="765" lt="765" ts="1441281673717" s="true" lb="Edit-Test" rc="200" rm="OK" tn="Sample Thread Group 3-1" dt="text" by="569" ng="1" na="4">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Thu, 03 Sep 2015 12:01:52 GMT
+Content-Type: application/json;q=.2
+Transfer-Encoding: chunked
+Connection: close
+Vary: Accept
+Allow: GET, POST, PUT, DELETE, HEAD, OPTIONS
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Content-Type: application/x-www-form-urlencoded
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;id&quot;:175,&quot;tenant_code&quot;:&quot;allstate&quot;,&quot;name&quot;:&quot;Proj-12959&quot;,&quot;domain_url&quot;:&quot;http://www.put.com/wtaf&quot;,&quot;locale&quot;:&quot;en-us&quot;,&quot;crawling_frequency&quot;:&quot;daily&quot;,&quot;sub_domain_count&quot;:0,&quot;keyword_count&quot;:0,&quot;theme_count&quot;:0,&quot;crawled_dt&quot;:&quot;2015-09-03T09:53:15.571919Z&quot;,&quot;logo_url&quot;:&quot;./app/assets/tenant_project_logo/default.png&quot;,&quot;crawling_status&quot;:false,&quot;custom_ctr&quot;:false}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">locale=en-us&amp;domain_url=http%3A%2F%2Fwww.put.com%2Fwtaf&amp;crawling_frequency=daily&amp;name=Proj-12959&amp;id=175&amp;tenant_code=allstate&amp;mutipart/form-data</queryString>
+  <java.net.URL>http://qa5.smallbizvoices.com/alps/manage/allstate/projects/175?format=json</java.net.URL>
+</httpSample>
+<httpSample t="770" lt="769" ts="1441281673717" s="true" lb="Edit-Test" rc="200" rm="OK" tn="Sample Thread Group 2-1" dt="text" by="569" ng="1" na="3">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Thu, 03 Sep 2015 12:01:52 GMT
+Content-Type: application/json;q=.2
+Transfer-Encoding: chunked
+Connection: close
+Vary: Accept
+Allow: GET, POST, PUT, DELETE, HEAD, OPTIONS
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Content-Type: application/x-www-form-urlencoded
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;id&quot;:169,&quot;tenant_code&quot;:&quot;allstate&quot;,&quot;name&quot;:&quot;Proj-60083&quot;,&quot;domain_url&quot;:&quot;http://www.put.com/wtaf&quot;,&quot;locale&quot;:&quot;en-us&quot;,&quot;crawling_frequency&quot;:&quot;daily&quot;,&quot;sub_domain_count&quot;:0,&quot;keyword_count&quot;:0,&quot;theme_count&quot;:0,&quot;crawled_dt&quot;:&quot;2015-09-03T09:53:13.867733Z&quot;,&quot;logo_url&quot;:&quot;./app/assets/tenant_project_logo/default.png&quot;,&quot;crawling_status&quot;:false,&quot;custom_ctr&quot;:false}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">locale=en-us&amp;domain_url=http%3A%2F%2Fwww.put.com%2Fwtaf&amp;crawling_frequency=daily&amp;name=Proj-60083&amp;id=169&amp;tenant_code=allstate&amp;mutipart/form-data</queryString>
+  <java.net.URL>http://qa5.smallbizvoices.com/alps/manage/allstate/projects/169?format=json</java.net.URL>
+</httpSample>
+<httpSample t="774" lt="774" ts="1441281673717" s="true" lb="Edit-Test" rc="200" rm="OK" tn="Sample Thread Group 5-1" dt="text" by="569" ng="1" na="2">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Thu, 03 Sep 2015 12:01:52 GMT
+Content-Type: application/json;q=.2
+Transfer-Encoding: chunked
+Connection: close
+Vary: Accept
+Allow: GET, POST, PUT, DELETE, HEAD, OPTIONS
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Content-Type: application/x-www-form-urlencoded
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;id&quot;:173,&quot;tenant_code&quot;:&quot;allstate&quot;,&quot;name&quot;:&quot;Proj-85822&quot;,&quot;domain_url&quot;:&quot;http://www.put.com/wtaf&quot;,&quot;locale&quot;:&quot;en-us&quot;,&quot;crawling_frequency&quot;:&quot;daily&quot;,&quot;sub_domain_count&quot;:0,&quot;keyword_count&quot;:0,&quot;theme_count&quot;:0,&quot;crawled_dt&quot;:&quot;2015-09-03T09:53:15.561145Z&quot;,&quot;logo_url&quot;:&quot;./app/assets/tenant_project_logo/default.png&quot;,&quot;crawling_status&quot;:false,&quot;custom_ctr&quot;:false}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">locale=en-us&amp;domain_url=http%3A%2F%2Fwww.put.com%2Fwtaf&amp;crawling_frequency=daily&amp;name=Proj-85822&amp;id=173&amp;tenant_code=allstate&amp;mutipart/form-data</queryString>
+  <java.net.URL>http://qa5.smallbizvoices.com/alps/manage/allstate/projects/173?format=json</java.net.URL>
+</httpSample>
+<httpSample t="780" lt="780" ts="1441281673717" s="true" lb="Edit-Test" rc="200" rm="OK" tn="Sample Thread Group 6-1" dt="text" by="569" ng="1" na="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Thu, 03 Sep 2015 12:01:52 GMT
+Content-Type: application/json;q=.2
+Transfer-Encoding: chunked
+Connection: close
+Vary: Accept
+Allow: GET, POST, PUT, DELETE, HEAD, OPTIONS
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Content-Type: application/x-www-form-urlencoded
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;id&quot;:170,&quot;tenant_code&quot;:&quot;allstate&quot;,&quot;name&quot;:&quot;Proj-21287&quot;,&quot;domain_url&quot;:&quot;http://www.put.com/wtaf&quot;,&quot;locale&quot;:&quot;en-us&quot;,&quot;crawling_frequency&quot;:&quot;daily&quot;,&quot;sub_domain_count&quot;:0,&quot;keyword_count&quot;:0,&quot;theme_count&quot;:0,&quot;crawled_dt&quot;:&quot;2015-09-03T09:53:14.762241Z&quot;,&quot;logo_url&quot;:&quot;./app/assets/tenant_project_logo/default.png&quot;,&quot;crawling_status&quot;:false,&quot;custom_ctr&quot;:false}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">locale=en-us&amp;domain_url=http%3A%2F%2Fwww.put.com%2Fwtaf&amp;crawling_frequency=daily&amp;name=Proj-21287&amp;id=170&amp;tenant_code=allstate&amp;mutipart/form-data</queryString>
+  <java.net.URL>http://qa5.smallbizvoices.com/alps/manage/allstate/projects/170?format=json</java.net.URL>
+</httpSample>
+
+</testResults>
